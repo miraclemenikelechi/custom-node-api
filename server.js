@@ -4,7 +4,7 @@ const
     app = express(),
     PORT = process.env.PORT || 8000;
 
-app.use(cors());
+// app.use(cors());
 
 app.post(
     "/send",
